@@ -1,0 +1,38 @@
+[
+  {
+    "kind": "column",
+    "name": "Custom Icons",
+    "description": "Select an icon style, icon name, and customize colors, then get SVG as a data URL. If you want to level-up your Glide skills for free, head to https://loqode.com 🚀",
+    "author": "Marco Volpato <marco@loqode.com>",
+    "params": [
+      {
+        "name": "nam",
+        "displayName": "Name (See phosphoricons.com)",
+        "type": "string"
+      },
+      {
+        "name": "style",
+        "displayName": "Style (thin, light, regular, bold, fill, duotone)",
+        "type": "string"
+      },
+      {
+        "name": "color",
+        "displayName": "Color",
+        "type": "string"
+      },
+      {
+        "name": "bgcolor",
+        "displayName": "Background Color",
+        "type": "string"
+      },
+      {
+        "name": "scale",
+        "displayName": "Scale (Default is 64%)",
+        "type": "string"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
